@@ -13,7 +13,7 @@
         </Grid.ColumnDefinitions>
         <DataGrid x:Name="dataGrid" Margin="22,10,0,0" Height="126" Width="756" VerticalAlignment="Top" HorizontalAlignment="Left" Background="White" Grid.ColumnSpan="2">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="ФИО" Binding="{Binding Path = EmployeeNamee}"/>
+                <DataGridTextColumn Header="ФИО" Binding="{Binding Path = EmployeeName}"/>
                 <DataGridTextColumn Header="Пол" Binding="{Binding Path = Gender}"/>
                 <DataGridTextColumn Header="Должность" Binding="{Binding Path = Post}"/>
                 <DataGridTextColumn Header="Стаж работы" Binding="{Binding Path = WorkExperience}"/>
